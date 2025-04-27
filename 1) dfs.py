@@ -12,7 +12,7 @@ class Graph:
         if visited is None:
             visited = set()
         visited.add(v)
-        print(v, end=' ')
+        print(v,  end=' ->' if len(visited) < len(self.graph) else ' ')  
         for neighbor in self.graph[v]:
             if neighbor not in visited:
                 self.dfs(neighbor, visited)
