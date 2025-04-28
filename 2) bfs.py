@@ -14,7 +14,7 @@ class Graph:
         visited.add(start)
         while queue:
             v = queue.popleft()
-            print(v, end=' ')
+            print(v, end='-> 'if queue else' ')
             for neighbor in self.graph[v]:
                 if neighbor not in visited:
                     visited.add(neighbor)
