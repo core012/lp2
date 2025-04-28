@@ -1,0 +1,20 @@
+-- Steps to Configure Google App Engine:
+
+1. Login:
+    - Search 'Google Cloud console' and login with your account.
+    - Open the console.
+
+2. Set Up Google Cloud Project:
+    - Open project picker and Create a new project.
+    - Again Open project picker and select the project.
+    - In the search bar, Search 'App Engine Admin API' and enable it.
+    
+3. Cloud shell:
+    - Open cloud shell (at the top Right), and give permissions if it ask.
+    - In shell, clone the repo (Ex. git clone <your-repo-clone-url>)
+    - Then type 'ls' to check the folder.
+    - Then 'cd folder-name/'.
+    - Again 'ls', it will show you all the files.
+    - Run the files with commands (Ex. ( python factorial.py ) or ( javac factorial.java && java factorial ) ).
+
+4. Sign Out.

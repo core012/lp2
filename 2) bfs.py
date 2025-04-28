@@ -20,6 +20,8 @@ class Graph:
                     visited.add(neighbor)
                     queue.append(neighbor)
 
+
+
 # Input
 g = Graph()
 n = int(input("Enter number of edges: "))
@@ -31,3 +33,4 @@ for _ in range(n):
 start = int(input("Enter starting node: "))
 print("BFS traversal:")
 g.bfs(start)
+print()
